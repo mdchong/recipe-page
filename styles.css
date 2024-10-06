@@ -2,6 +2,20 @@
 
 /* Global Style */
 
+/* Feedback */
+
+/* 
+
+- Mobile first approach: Use min width in your media queries with a value in rem or em when switching to desktop
+- Use classes for styling, makes it easier when working on larger projects
+- Create variables for more properties such as font families and font weights
+- Use max-width: 100%, instead of width: 100%
+- Typo on line 95 for font size
+- Using rem for padding and margin might be easier to handle
+
+*/
+
+
 :root {
     /* Colors */
     --white: hsl(0, 0%, 100%);
@@ -25,7 +39,7 @@ html {
 body {
     background-color: var(--white);
     max-width: 720px;
-    width: 75%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
